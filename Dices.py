@@ -65,3 +65,13 @@ def rollD100():
     int: a random number between 1 and 100
     """
     return random.randint(1,100)
+
+
+def rollD120():
+    """
+    Roll a standard 120 sided dice
+    
+    Returns:
+    int: a random number between 1 and 120
+    """
+    return random.randint(1,120)
